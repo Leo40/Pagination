@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  /* margin: auto; */
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  font-weight: 600;
+  /* max-width: 900px; */
+  table-layout: fixed;
+}
+
+table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  cursor: pointer;
+}
+
+th:hover {
+  cursor: auto;
+}
+
+table,
+th,
+td {
+  box-sizing: border-box;
+  border: 2px solid rgb(216, 211, 211);
+  text-align: center;
+  padding: 5px 40px 5px 40px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+}
+
+tbody {
+  color: #00994d;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  color: #66b2ff;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+.user-id {
+  /* background-color: blue; */
+  position: sticky;
+  left: 0;
+}
